@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Positioning Activity</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      height: 1500px; /* to enable scrolling */
+    }
+
+    /* Static positioning (default) */
+    .static {
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    /* Relative positioning */
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    /* Absolute positioning */
+    .container {
+      position: relative;
+      border: 2px solid black;
+      height: 200px;
+      margin-top: 40px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+
+    /* Fixed positioning */
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: orange;
+      padding: 10px;
+    }
+
+    /* Sticky positioning */
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: yellow;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>CSS POSITIONING ACTIVITY</h1>
+
+  <div class="static">Static Position (Default)</div>
+
+  <div class="relative">Relative Position</div>
+
+  <div class="container">
+    <div class="absolute">Absolute Position</div>
+  </div>
+
+  <div class="sticky">Sticky Position (Scroll down)</div>
+
+  <div class="fixed">Fixed Position</div>
+
+</body>
+</html>
