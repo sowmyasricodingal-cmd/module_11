@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudo Classes Activity</title>
+
+  <style>
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+    }
+
+    /* Hover */
+    button:hover {
+      background-color: blue;
+      color: white;
+    }
+
+    /* Active */
+    button:active {
+      background-color: red;
+    }
+
+    /* Disabled */
+    button:disabled {
+      background-color: gray;
+      color: white;
+    }
+
+    /* Focus */
+    input:focus {
+      border: 2px solid green;
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button>Hover & Active</button>
+  <button disabled>Disabled</button>
+
+  <br><br>
+
+  <input type="text" placeholder="Focus here">
+
+</body>
+</html>
